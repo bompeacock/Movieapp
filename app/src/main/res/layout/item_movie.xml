@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="@dimen/normal_space"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/cover_heigh"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/sam"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/txtTitle"
+            android:textSize="@dimen/large_size"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/space_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Hello world"
+            android:textStyle="normal|bold" />
+            <TextView
+                android:id="@+id/txtOverview"
+                android:textSize="@dimen/size_normal"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="@dimen/space_small"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                tools:text="A big screen remake of John Sturges' classic western The Magnificent Seven, itself a remake of Akira Kurosawa's Seven Samurai. Seven gun men in the old west gradually come together to help a poor village against savage thieves."
+                />
+        <TextView
+            android:id="@+id/txtDate"
+            android:textSize="@dimen/large_size"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_marginLeft="@dimen/space_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="12/3/2016"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+</LinearLayout>
