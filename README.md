@@ -45,8 +45,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+XML YoutuePlayerView Error:A YouTubePlayerView can only be created with an Activity  which extends YouTubeBaseActivity as its context.
 
 ## Open-source libraries used
 
